@@ -24,18 +24,18 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.A = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.G = New System.Windows.Forms.PictureBox()
         Me.D = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.F = New System.Windows.Forms.PictureBox()
         Me.B = New System.Windows.Forms.PictureBox()
         Me.E = New System.Windows.Forms.PictureBox()
         Me.C = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.A, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.G, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.D, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.F, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.B, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.E, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.C, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -51,15 +51,15 @@ Partial Class Form1
         Me.A.TabIndex = 2
         Me.A.TabStop = False
         '
-        'PictureBox1
+        'G
         '
-        Me.PictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(79, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(196, Byte), Integer))
-        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox1.Location = New System.Drawing.Point(99, 222)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(137, 23)
-        Me.PictureBox1.TabIndex = 3
-        Me.PictureBox1.TabStop = False
+        Me.G.BackColor = System.Drawing.Color.FromArgb(CType(CType(79, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(196, Byte), Integer))
+        Me.G.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.G.Location = New System.Drawing.Point(99, 222)
+        Me.G.Name = "G"
+        Me.G.Size = New System.Drawing.Size(137, 23)
+        Me.G.TabIndex = 3
+        Me.G.TabStop = False
         '
         'D
         '
@@ -71,15 +71,15 @@ Partial Class Form1
         Me.D.TabIndex = 4
         Me.D.TabStop = False
         '
-        'PictureBox4
+        'F
         '
-        Me.PictureBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(79, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(196, Byte), Integer))
-        Me.PictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox4.Location = New System.Drawing.Point(69, 81)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(23, 137)
-        Me.PictureBox4.TabIndex = 5
-        Me.PictureBox4.TabStop = False
+        Me.F.BackColor = System.Drawing.Color.FromArgb(CType(CType(79, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(196, Byte), Integer))
+        Me.F.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.F.Location = New System.Drawing.Point(69, 81)
+        Me.F.Name = "F"
+        Me.F.Size = New System.Drawing.Size(23, 137)
+        Me.F.TabIndex = 5
+        Me.F.TabStop = False
         '
         'B
         '
@@ -133,16 +133,16 @@ Partial Class Form1
         Me.Controls.Add(Me.C)
         Me.Controls.Add(Me.E)
         Me.Controls.Add(Me.B)
-        Me.Controls.Add(Me.PictureBox4)
+        Me.Controls.Add(Me.F)
         Me.Controls.Add(Me.D)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.G)
         Me.Controls.Add(Me.A)
         Me.Name = "Form1"
         Me.Text = "Assignment #2"
         CType(Me.A, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.G, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.D, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.F, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.B, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.E, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.C, System.ComponentModel.ISupportInitialize).EndInit()
@@ -151,9 +151,9 @@ Partial Class Form1
 
     End Sub
     Friend WithEvents A As PictureBox
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents G As PictureBox
     Friend WithEvents D As PictureBox
-    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents F As PictureBox
     Friend WithEvents B As PictureBox
     Friend WithEvents E As PictureBox
     Friend WithEvents C As PictureBox
