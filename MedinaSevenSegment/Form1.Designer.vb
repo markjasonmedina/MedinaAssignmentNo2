@@ -138,7 +138,7 @@ Partial Class Form1
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.A)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Assignment #2"
         CType(Me.A, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.D, System.ComponentModel.ISupportInitialize).EndInit()
