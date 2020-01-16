@@ -23,93 +23,93 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.A = New System.Windows.Forms.PictureBox()
-        Me.G = New System.Windows.Forms.PictureBox()
-        Me.D = New System.Windows.Forms.PictureBox()
-        Me.F = New System.Windows.Forms.PictureBox()
-        Me.B = New System.Windows.Forms.PictureBox()
-        Me.E = New System.Windows.Forms.PictureBox()
-        Me.C = New System.Windows.Forms.PictureBox()
+        Me.AA = New System.Windows.Forms.PictureBox()
+        Me.GG = New System.Windows.Forms.PictureBox()
+        Me.DD = New System.Windows.Forms.PictureBox()
+        Me.FF = New System.Windows.Forms.PictureBox()
+        Me.BB = New System.Windows.Forms.PictureBox()
+        Me.EE = New System.Windows.Forms.PictureBox()
+        Me.CC = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        CType(Me.A, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.G, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.D, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.F, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.B, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.E, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.C, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.AA, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GG, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DD, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.FF, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BB, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EE, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.CC, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'A
+        'AA
         '
-        Me.A.BackColor = System.Drawing.Color.FromArgb(CType(CType(79, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(196, Byte), Integer))
-        Me.A.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.A.Location = New System.Drawing.Point(99, 52)
-        Me.A.Name = "A"
-        Me.A.Size = New System.Drawing.Size(137, 23)
-        Me.A.TabIndex = 2
-        Me.A.TabStop = False
+        Me.AA.BackColor = System.Drawing.Color.FromArgb(CType(CType(79, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(196, Byte), Integer))
+        Me.AA.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.AA.Location = New System.Drawing.Point(99, 52)
+        Me.AA.Name = "AA"
+        Me.AA.Size = New System.Drawing.Size(137, 23)
+        Me.AA.TabIndex = 2
+        Me.AA.TabStop = False
         '
-        'G
+        'GG
         '
-        Me.G.BackColor = System.Drawing.Color.FromArgb(CType(CType(79, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(196, Byte), Integer))
-        Me.G.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.G.Location = New System.Drawing.Point(99, 222)
-        Me.G.Name = "G"
-        Me.G.Size = New System.Drawing.Size(137, 23)
-        Me.G.TabIndex = 3
-        Me.G.TabStop = False
+        Me.GG.BackColor = System.Drawing.Color.FromArgb(CType(CType(79, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(196, Byte), Integer))
+        Me.GG.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.GG.Location = New System.Drawing.Point(99, 222)
+        Me.GG.Name = "GG"
+        Me.GG.Size = New System.Drawing.Size(137, 23)
+        Me.GG.TabIndex = 3
+        Me.GG.TabStop = False
         '
-        'D
+        'DD
         '
-        Me.D.BackColor = System.Drawing.Color.FromArgb(CType(CType(79, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(196, Byte), Integer))
-        Me.D.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.D.Location = New System.Drawing.Point(99, 393)
-        Me.D.Name = "D"
-        Me.D.Size = New System.Drawing.Size(137, 23)
-        Me.D.TabIndex = 4
-        Me.D.TabStop = False
+        Me.DD.BackColor = System.Drawing.Color.FromArgb(CType(CType(79, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(196, Byte), Integer))
+        Me.DD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.DD.Location = New System.Drawing.Point(99, 393)
+        Me.DD.Name = "DD"
+        Me.DD.Size = New System.Drawing.Size(137, 23)
+        Me.DD.TabIndex = 4
+        Me.DD.TabStop = False
         '
-        'F
+        'FF
         '
-        Me.F.BackColor = System.Drawing.Color.FromArgb(CType(CType(79, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(196, Byte), Integer))
-        Me.F.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.F.Location = New System.Drawing.Point(69, 81)
-        Me.F.Name = "F"
-        Me.F.Size = New System.Drawing.Size(23, 137)
-        Me.F.TabIndex = 5
-        Me.F.TabStop = False
+        Me.FF.BackColor = System.Drawing.Color.FromArgb(CType(CType(79, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(196, Byte), Integer))
+        Me.FF.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.FF.Location = New System.Drawing.Point(69, 81)
+        Me.FF.Name = "FF"
+        Me.FF.Size = New System.Drawing.Size(23, 137)
+        Me.FF.TabIndex = 5
+        Me.FF.TabStop = False
         '
-        'B
+        'BB
         '
-        Me.B.BackColor = System.Drawing.Color.FromArgb(CType(CType(79, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(196, Byte), Integer))
-        Me.B.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.B.Location = New System.Drawing.Point(240, 81)
-        Me.B.Name = "B"
-        Me.B.Size = New System.Drawing.Size(23, 137)
-        Me.B.TabIndex = 6
-        Me.B.TabStop = False
+        Me.BB.BackColor = System.Drawing.Color.FromArgb(CType(CType(79, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(196, Byte), Integer))
+        Me.BB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.BB.Location = New System.Drawing.Point(240, 81)
+        Me.BB.Name = "BB"
+        Me.BB.Size = New System.Drawing.Size(23, 137)
+        Me.BB.TabIndex = 6
+        Me.BB.TabStop = False
         '
-        'E
+        'EE
         '
-        Me.E.BackColor = System.Drawing.Color.FromArgb(CType(CType(79, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(196, Byte), Integer))
-        Me.E.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.E.Location = New System.Drawing.Point(69, 250)
-        Me.E.Name = "E"
-        Me.E.Size = New System.Drawing.Size(23, 137)
-        Me.E.TabIndex = 7
-        Me.E.TabStop = False
+        Me.EE.BackColor = System.Drawing.Color.FromArgb(CType(CType(79, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(196, Byte), Integer))
+        Me.EE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.EE.Location = New System.Drawing.Point(69, 250)
+        Me.EE.Name = "EE"
+        Me.EE.Size = New System.Drawing.Size(23, 137)
+        Me.EE.TabIndex = 7
+        Me.EE.TabStop = False
         '
-        'C
+        'CC
         '
-        Me.C.BackColor = System.Drawing.Color.FromArgb(CType(CType(79, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(196, Byte), Integer))
-        Me.C.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.C.Location = New System.Drawing.Point(242, 250)
-        Me.C.Name = "C"
-        Me.C.Size = New System.Drawing.Size(23, 137)
-        Me.C.TabIndex = 8
-        Me.C.TabStop = False
+        Me.CC.BackColor = System.Drawing.Color.FromArgb(CType(CType(79, Byte), Integer), CType(CType(158, Byte), Integer), CType(CType(196, Byte), Integer))
+        Me.CC.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.CC.Location = New System.Drawing.Point(242, 250)
+        Me.CC.Name = "CC"
+        Me.CC.Size = New System.Drawing.Size(23, 137)
+        Me.CC.TabIndex = 8
+        Me.CC.TabStop = False
         '
         'Label1
         '
@@ -130,33 +130,33 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(333, 450)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.C)
-        Me.Controls.Add(Me.E)
-        Me.Controls.Add(Me.B)
-        Me.Controls.Add(Me.F)
-        Me.Controls.Add(Me.D)
-        Me.Controls.Add(Me.G)
-        Me.Controls.Add(Me.A)
+        Me.Controls.Add(Me.CC)
+        Me.Controls.Add(Me.EE)
+        Me.Controls.Add(Me.BB)
+        Me.Controls.Add(Me.FF)
+        Me.Controls.Add(Me.DD)
+        Me.Controls.Add(Me.GG)
+        Me.Controls.Add(Me.AA)
         Me.Name = "Form1"
         Me.Text = "Assignment #2"
-        CType(Me.A, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.G, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.D, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.F, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.B, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.E, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.C, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.AA, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GG, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DD, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.FF, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BB, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EE, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.CC, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents A As PictureBox
-    Friend WithEvents G As PictureBox
-    Friend WithEvents D As PictureBox
-    Friend WithEvents F As PictureBox
-    Friend WithEvents B As PictureBox
-    Friend WithEvents E As PictureBox
-    Friend WithEvents C As PictureBox
+    Friend WithEvents AA As PictureBox
+    Friend WithEvents GG As PictureBox
+    Friend WithEvents DD As PictureBox
+    Friend WithEvents FF As PictureBox
+    Friend WithEvents BB As PictureBox
+    Friend WithEvents EE As PictureBox
+    Friend WithEvents CC As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Timer1 As Timer
 End Class
