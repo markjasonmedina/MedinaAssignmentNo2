@@ -1,0 +1,11 @@
+C:\Users\Mark Jason Medina\source\repos\MedinaSevenSegment\MedinaSevenSegment\obj\Debug\MedinaSevenSegment.vbprojAssemblyReference.cache
+C:\Users\Mark Jason Medina\source\repos\MedinaSevenSegment\MedinaSevenSegment\obj\Debug\MedinaSevenSegment.Form1.resources
+C:\Users\Mark Jason Medina\source\repos\MedinaSevenSegment\MedinaSevenSegment\obj\Debug\MedinaSevenSegment.Resources.resources
+C:\Users\Mark Jason Medina\source\repos\MedinaSevenSegment\MedinaSevenSegment\obj\Debug\MedinaSevenSegment.vbproj.GenerateResource.cache
+C:\Users\Mark Jason Medina\source\repos\MedinaSevenSegment\MedinaSevenSegment\bin\Debug\MedinaSevenSegment.exe.config
+C:\Users\Mark Jason Medina\source\repos\MedinaSevenSegment\MedinaSevenSegment\bin\Debug\MedinaSevenSegment.exe
+C:\Users\Mark Jason Medina\source\repos\MedinaSevenSegment\MedinaSevenSegment\bin\Debug\MedinaSevenSegment.pdb
+C:\Users\Mark Jason Medina\source\repos\MedinaSevenSegment\MedinaSevenSegment\bin\Debug\MedinaSevenSegment.xml
+C:\Users\Mark Jason Medina\source\repos\MedinaSevenSegment\MedinaSevenSegment\obj\Debug\MedinaSevenSegment.exe
+C:\Users\Mark Jason Medina\source\repos\MedinaSevenSegment\MedinaSevenSegment\obj\Debug\MedinaSevenSegment.xml
+C:\Users\Mark Jason Medina\source\repos\MedinaSevenSegment\MedinaSevenSegment\obj\Debug\MedinaSevenSegment.pdb
