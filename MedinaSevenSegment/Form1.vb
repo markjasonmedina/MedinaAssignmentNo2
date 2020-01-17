@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class MedinaSevenSegment
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
@@ -15,7 +15,7 @@
 
     End Sub
 
-    Private Sub AA_Click(sender As Object, e As EventArgs) Handles AA.Click
+    Private Sub AA_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -123,6 +123,14 @@
             GG.BackColor = Color.FromArgb(0, 0, 128)
             i = 0
         End If
+
+    End Sub
+
+    Private Sub FF_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class
