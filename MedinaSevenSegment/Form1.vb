@@ -62,5 +62,25 @@
             FF.BackColor = Color.FromArgb(79, 158, 196)
             GG.BackColor = Color.FromArgb(0, 0, 128)
         End If
+
+        If i = 5 Then
+            AA.BackColor = Color.FromArgb(79, 158, 196)
+            BB.BackColor = Color.FromArgb(0, 0, 128)
+            CC.BackColor = Color.FromArgb(0, 0, 128)
+            DD.BackColor = Color.FromArgb(79, 158, 196)
+            EE.BackColor = Color.FromArgb(79, 158, 196)
+            FF.BackColor = Color.FromArgb(0, 0, 128)
+            GG.BackColor = Color.FromArgb(0, 0, 128)
+        End If
+
+        If i = 6 Then
+            AA.BackColor = Color.FromArgb(0, 0, 128)
+            BB.BackColor = Color.FromArgb(79, 158, 196)
+            CC.BackColor = Color.FromArgb(0, 0, 128)
+            DD.BackColor = Color.FromArgb(0, 0, 128)
+            EE.BackColor = Color.FromArgb(79, 158, 196)
+            FF.BackColor = Color.FromArgb(0, 0, 128)
+            GG.BackColor = Color.FromArgb(0, 0, 128)
+        End If
     End Sub
 End Class
