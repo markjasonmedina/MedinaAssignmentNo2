@@ -93,7 +93,7 @@
             GG.BackColor = Color.FromArgb(0, 0, 128)
         End If
 
-        If i = 7 Then
+        If i = 8 Then
             AA.BackColor = Color.FromArgb(0, 0, 128)
             BB.BackColor = Color.FromArgb(0, 0, 128)
             CC.BackColor = Color.FromArgb(0, 0, 128)
@@ -101,6 +101,30 @@
             EE.BackColor = Color.FromArgb(79, 158, 196)
             FF.BackColor = Color.FromArgb(79, 158, 196)
             GG.BackColor = Color.FromArgb(79, 158, 196)
+        End If
+
+        If i = 9 Then
+            AA.BackColor = Color.FromArgb(0, 0, 128)
+            BB.BackColor = Color.FromArgb(0, 0, 128)
+            CC.BackColor = Color.FromArgb(0, 0, 128)
+            DD.BackColor = Color.FromArgb(0, 0, 128)
+            EE.BackColor = Color.FromArgb(0, 0, 128)
+            FF.BackColor = Color.FromArgb(0, 0, 128)
+            GG.BackColor = Color.FromArgb(0, 0, 128)
+        End If
+
+        If i = 10 Then
+            AA.BackColor = Color.FromArgb(0, 0, 128)
+            BB.BackColor = Color.FromArgb(0, 0, 128)
+            CC.BackColor = Color.FromArgb(0, 0, 128)
+            DD.BackColor = Color.FromArgb(0, 0, 128)
+            EE.BackColor = Color.FromArgb(79, 158, 196)
+            FF.BackColor = Color.FromArgb(0, 0, 128)
+            GG.BackColor = Color.FromArgb(0, 0, 128)
+        End If
+
+        If i > 10 Then
+            i = 1
         End If
 
     End Sub
