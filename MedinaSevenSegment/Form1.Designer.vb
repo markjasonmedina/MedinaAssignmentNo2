@@ -31,7 +31,7 @@ Partial Class Form1
         Me.EE = New System.Windows.Forms.PictureBox()
         Me.CC = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Timer = New System.Windows.Forms.Timer(Me.components)
         CType(Me.AA, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GG, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DD, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -120,9 +120,10 @@ Partial Class Form1
         Me.Label1.TabIndex = 9
         Me.Label1.Text = "Medina, Mark Jason A. BS CpE 5-3"
         '
-        'Timer1
+        'Timer
         '
-        Me.Timer1.Interval = 1000
+        Me.Timer.Enabled = True
+        Me.Timer.Interval = 1000
         '
         'Form1
         '
@@ -158,5 +159,5 @@ Partial Class Form1
     Friend WithEvents EE As PictureBox
     Friend WithEvents CC As PictureBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents Timer1 As Timer
+    Friend WithEvents Timer As Timer
 End Class

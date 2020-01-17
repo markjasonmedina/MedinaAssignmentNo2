@@ -11,21 +11,27 @@
 
     End Sub
 
-    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        Static state As Integer
-        Select Case state
-            Case 0
-                AA.BackColor = RGB(79, 158, 196)
-                BB.BackColor = RGB(79, 158, 196)
-                CC.BackColor = RGB(79, 158, 196)
-                DD.BackColor = RGB(79, 158, 196)
-                EE.BackColor = RGB(79, 158, 196)
-                FF.BackColor = RGB(79, 158, 196)
-                GG.BackColor = RGB(0, 0, 0)
-        End Select
-    End Sub
-
     Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles BB.Click
 
+    End Sub
+
+    Private Sub AA_Click(sender As Object, e As EventArgs) Handles AA.Click
+
+    End Sub
+
+    Dim i As Integer
+    Private Sub Timer_Tick(sender As Object, e As EventArgs) Handles Timer.Tick
+        i = i + 1
+
+        If i = 1 Then
+            GG.BackColor = Color.FromArgb(0, 0, 0)
+        End If
+
+        If i = 2 Then
+            AA.BackColor = Color.FromArgb(0, 0, 0)
+            DD.BackColor = Color.FromArgb(0, 0, 0)
+            EE.BackColor = Color.FromArgb(0, 0, 0)
+            FF.BackColor = Color.FromArgb(0, 0, 0)
+        End If
     End Sub
 End Class
