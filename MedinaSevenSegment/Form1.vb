@@ -121,10 +121,7 @@
             EE.BackColor = Color.FromArgb(79, 158, 196)
             FF.BackColor = Color.FromArgb(0, 0, 128)
             GG.BackColor = Color.FromArgb(0, 0, 128)
-        End If
-
-        If i > 10 Then
-            i = 1
+            i = 0
         End If
 
     End Sub
