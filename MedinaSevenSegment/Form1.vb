@@ -1,6 +1,6 @@
 ﻿Public Class MedinaSevenSegment
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs)
-
+        
     End Sub
 
     Private Sub PictureBox4_Click(sender As Object, e As EventArgs)
